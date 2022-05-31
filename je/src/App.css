@@ -1,0 +1,69 @@
+body{
+  overflow-x:hidden;
+  margin: 0px;
+  padding: 0px;
+}
+/* login page styling */
+
+.login-container{
+  text-align: center;
+}
+
+
+/* @media(max-width: 1200px){
+  .login-container{
+    margin: 0 20%;
+  }
+} */
+/* side panel styling */
+.sidepanel{
+  box-sizing: border-box;
+}
+.nav-item{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-text{
+  text-decoration: none;
+}
+
+.link{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 0px 10px 30px;
+}
+.link:hover{
+  color: orangered;
+}
+
+.active{
+  background-color: bisque;
+  color: orangered;
+  border-left: 15px solid orangered;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.nav-active-link{
+ background-color: transparent;
+ border: 0px;
+}
+
+/* table styling */
+.thead{
+  background-color: bisque;
+}
+.dash-icons{
+  color: orangered;
+}
+.btnClass:hover{
+  background-color: orangered !important;
+  color: white !important;
+  font-weight: bolder;
+}
+.page-title{
+  color: orangered;
+}
+/* modal styling */
+.modal-bdy{
+  background-color: rgb(175, 231, 175);}
